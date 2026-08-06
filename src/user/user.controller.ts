@@ -8,7 +8,7 @@ import { RoleGuard } from '../common/guard/role.guard';
 import { LoginUserDto } from './dto/login-user.dto/login-user.dto';
 
 @Controller('user')
-@UseInterceptors(TransformInterceptor)
+@UseInterceptors(TransformInterceptor) 
 export class UserController {
     constructor(private readonly usersService: UserService) { }
     
