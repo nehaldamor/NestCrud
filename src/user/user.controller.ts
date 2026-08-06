@@ -3,7 +3,7 @@ import { CreateUserDto } from './dto/create-user.dto/create-user.dto';
 import { UserService } from './user.service';
 import { UpdateUserDto } from './dto/update-user.dto/update-user.dto';
 import { AuthGuard } from '../common/guard/auth.guard';
-import { TransformInterceptor } from 'src/common/interceptor/transform.interceptor';
+import { TransformInterceptor } from '../common/interceptor/transform.interceptor';
 import { RoleGuard } from '../common/guard/role.guard';
 import { LoginUserDto } from './dto/login-user.dto/login-user.dto';
 
